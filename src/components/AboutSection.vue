@@ -39,7 +39,7 @@
 <script setup>
 const stats = [
   { value: "-", label: "Años de experiencia" },
-  { value: "4", label: "Proyectos completados" },
+  { value: "5", label: "Proyectos completados" },
   { value: "1", label: "Cursos relacionados completados" },
   { value: "100%", label: "Compromiso con cada proyecto" },
 ];

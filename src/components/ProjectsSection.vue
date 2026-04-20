@@ -43,7 +43,11 @@
             <p class="project-desc">{{ project.desc }}</p>
 
             <div class="project-footer">
-              <a href="" class="project-link primary">
+              <a
+                :href="project.demo"
+                class="project-link primary"
+                target="_blank"
+              >
                 Demo
                 <svg width="12" height="12" viewBox="0 0 12 12" fill="none">
                   <path
@@ -79,6 +83,7 @@ const projects = [
     emoji: "🛒",
     thumbBg: "linear-gradient(135deg, #1a1a2e, #16213e)",
     github: "https://github.com/BarbaraQ27/Game-Store",
+    demo: "https://barbaraq27.github.io/Game-Store/",
     featured: true,
   },
   {
@@ -88,6 +93,7 @@ const projects = [
     emoji: "📚",
     thumbBg: "linear-gradient(135deg, #0d1b2a, #1b263b)",
     github: "https://github.com/BarbaraQ27/BookList",
+    demo: "https://barbaraq27.github.io/BookList/",
     featured: false,
   },
   {
@@ -97,6 +103,7 @@ const projects = [
     emoji: "🎮",
     thumbBg: "linear-gradient(135deg, #1a1a1a, #2d2d2d)",
     github: "https://github.com/BarbaraQ27/Game-List",
+    demo: "https://barbaraq27.github.io/Game-List/",
     featured: false,
   },
   {
@@ -106,6 +113,7 @@ const projects = [
     emoji: "💻",
     thumbBg: "linear-gradient(135deg, #0f2027, #203a43)",
     github: "https://github.com/BarbaraQ27/Aplicacion-de-consola",
+    demo: "https://barbaraq27.github.io/Aplicacion-de-consola/",
     featured: false,
   },
   {
@@ -115,6 +123,7 @@ const projects = [
     emoji: "💳",
     thumbBg: "linear-gradient(135deg, #1f1c2c, #928dab)",
     github: "https://github.com/BarbaraQ27/Alke-Wallet",
+    demo: "https://barbaraq27.github.io/Alke-Wallet/",
     featured: false,
   },
 ];

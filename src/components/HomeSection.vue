@@ -59,7 +59,7 @@
               <span class="mini-label">Cursos realizados</span>
             </div>
             <div class="mini-stat">
-              <span class="mini-num">4</span>
+              <span class="mini-num">5</span>
               <span class="mini-label">Proyectos</span>
             </div>
           </div>
